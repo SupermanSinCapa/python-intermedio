@@ -114,7 +114,7 @@ def area_poligono(lado1, lado2, lado3, lado4 = 0):
             area = lado1 * lado3
             return print(f'El area del rectangulo es {area}')
         
-area_poligono(2, 2, 2, 2,)
+area_poligono(2, 2, 2, 2)
 area_poligono(3, 4, 5)
 area_poligono(5,5,4,4)
 
