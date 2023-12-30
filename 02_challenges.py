@@ -117,3 +117,21 @@ def area_poligono(lado1, lado2, lado3, lado4 = 0):
 area_poligono(2, 2, 2, 2)
 area_poligono(3, 4, 5)
 area_poligono(5,5,4,4)
+
+"""
+
+ * Crea un programa que invierta el orden de una cadena de texto
+ * sin usar funciones propias del lenguaje que lo hagan de forma automática.
+ * - Si le pasamos "Hola mundo" nos retornaría "odnum aloH"
+
+"""
+
+def invertir_orden(cadena_texto):
+    text_len = len(cadena_texto)
+    reverse_text = ''
+    for index in range(0, text_len):
+        reverse_text += cadena_texto[text_len - index - 1]
+    return reverse_text
+
+
+print(invertir_orden('hola a todos'))
